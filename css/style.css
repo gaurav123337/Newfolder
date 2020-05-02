@@ -1,0 +1,33 @@
+.clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    .clearfix {
+        display: inline-block;
+    }
+
+    html[xmlns] .clearfix {
+        display: block;
+    }
+
+    * html .clearfix {
+        height: 1%;
+    }
+
+    .tool-1,
+    .tool-2 {
+       border: 1px green solid;
+      border-radius: .2em;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    .ui-resizable-se {
+      right: -5px;
+      bottom: -5px;
+      position: relative;
+    }

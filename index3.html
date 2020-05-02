@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script>
+      function myFunction(){
+        let newHtml= localStorage.getItem("innerValue");
+        document.querySelector('body').innerHTML = newHtml;
+      }
+    </script>
+
+  </head>
+  <body onload="myFunction()">
+
+
+  </body>
+
+</html>
